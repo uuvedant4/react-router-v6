@@ -1,5 +1,12 @@
+body {
+  background-color: rgb(186, 36, 231);
+}
+
 .App {
   text-align: center;
+  margin-top: 230px;
+  font-size: 23px;
+  font-family: Cascadia Mono;
 }
 
 .App-logo {
@@ -35,4 +42,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  border-radius: 6px;
+  padding: 8px 17px;
+  background-color: rgb(209, 209, 209);
+  width: 97.6%;
+}
+
+.navbar .link {
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-family: Cascadia Mono;
+  cursor: pointer;
+}
+
+button {
+  width: 120px;
+  height: 27px;
+  font-family: Cascadia Mono;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27%;
+  background-color: rgb(209, 209, 209);
+  border-radius: 6px;
+  font-family: Cascadia Mono;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
